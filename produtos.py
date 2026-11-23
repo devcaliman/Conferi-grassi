@@ -1,5 +1,6 @@
 from flask import Flask, jsonify
 
+
 produtos = [
   { "codigo": "HF001", "nome": "Banana prata",       "categoria": "fruta",   "preco": 7.90,  "imagem": null, "status": "ativo" },
   { "codigo": "HF002", "nome": "Banana da terra",    "categoria": "fruta",   "preco": 9.50,  "imagem": null, "status": "ativo" },
